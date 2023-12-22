@@ -1,0 +1,197 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #745b5b;
+  font-family: "ff-good-headline-web-pro-ext", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+header {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+#headerLogo {
+  width: 200px;
+}
+
+main {
+  margin: 0;
+  padding: 2%;
+  background-color: #ffffff;
+}
+
+footer {
+  text-align: center;
+  margin: 0%;
+  padding: 1%;
+  background-color: #ffffff;
+}
+
+h3 {
+  font-family: "eurostile-extended", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 2em;
+  text-align: center;
+}
+
+#hero {
+  margin: 1%;
+  padding: 1%;
+}
+#heroImg {
+  height: auto;
+  margin: 1%;
+  padding: 1%;
+}
+#heroImg img {
+  width: 100%;
+  margin: 2%;
+}
+#heroText {
+  margin: 1%;
+  padding: 1%;
+}
+#heroText h1 {
+  font-size: 2rem;
+  text-align: left;
+  margin: 2%;
+  max-width: 10ch;
+  font-family: "eurostile-extended", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  line-height: 1.2;
+}
+@media screen and (min-width: 800px) {
+  #hero {
+    display: inline-flex;
+    flex-direction: row-reverse;
+  }
+  #heroImg {
+    width: 50%;
+  }
+  #heroText {
+    width: 50%;
+  }
+  #heroText h1 {
+    font-size: 5cqw;
+  }
+}
+
+#sponsors img {
+  width: 100%;
+  height: auto;
+}
+#sponsors ul {
+  list-style: none;
+  display: inline-block;
+  margin: 1%;
+  padding: 1%;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #fff;
+  text-align: center;
+}
+#sponsors li {
+  list-style: none;
+  display: inline-flex;
+  height: 100px;
+  width: 18%;
+  margin: 1%;
+  padding: 1%;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+#sponsorPackages {
+  height: auto;
+  margin: 1%;
+  padding: 1%;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+#sponsorPackagesContent{
+margin: 1%;
+  padding: 1%;
+}
+#contact {
+  height: auto;
+  margin: 1%;
+  padding: 1%;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+#aboutMe {
+  height: auto;
+  margin: 1%;
+  padding: 1%;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #ffffff;
+  width: 96%;
+}
+#textSection {
+  margin: 1%;
+  padding: 1%;
+}
+#iamgeSection {
+  margin: 1%;
+  padding: 0%;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #ffffff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+#iamgeSection img {
+  width: 50%;
+}
+@media screen and (min-width: 800px) {
+  #iamgeSection img {
+    width: 100%;
+  }
+  #iamgeSection {
+    width: 50%;
+  }
+  #aboutMe {
+    display: inline-flex;
+  }
+}
+
+header .social-links {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  text-decoration: none;
+  list-style: none;
+}
+.social-links a {
+  text-decoration: none;
+}
+/* CSS for the hover effect */
+.social-icon:hover {
+  transform: scale(1.2); /* Increase the size of the icon on hover */
+}
+/* Apply the hover effect to the social media icons */
+.social-icon img {
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+#footerHeader {
+  font-family: "sofachrome", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1em;
+  text-align: center;
+}
