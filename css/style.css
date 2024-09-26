@@ -1,8 +1,7 @@
-
 body {
   margin: 0;
   padding: 0;
-  background-color: #745b5b;
+  background-color: #fff;
   font-family: "ff-good-headline-web-pro-ext", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -116,8 +115,8 @@ h3 {
   border-radius: 5px;
   background-color: #ffffff;
 }
-#sponsorPackagesContent{
-margin: 1%;
+#sponsorPackagesContent {
+  margin: 1%;
   padding: 1%;
 }
 #contact {
